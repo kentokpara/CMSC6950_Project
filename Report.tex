@@ -1,4 +1,4 @@
-\documentclass[20pt]{report}
+\documentclass[20pt]{article}
 
 \usepackage{graphicx} % Required for the inclusion of images
 \usepackage{natbib} % Required to change bibliography style to APA
@@ -45,13 +45,13 @@ Argo is a global network of nearly 4000 autonomous probes measuring pressure, te
 
 \section{Installation}
 To use Argopy is a python package and is compatible with python versions 3.6, 3.7 and 3.8. 
-For this project, the following packages are required;\\
+For this project, the following packages are required;
 
 \begin{enumerate}
-\item Argopy \\
-\item Pandas \\
-\item Matplotlib\\
-\item Numpy \\
+\item Argopy
+\item Pandas 
+\item Matplotlib
+\item Numpy 
 \end{enumerate}
 
 %----------------------------------------------------------------------------------------
@@ -60,30 +60,30 @@ For this project, the following packages are required;\\
 
 \section{Sample Data}
 
-Each Argo probe is an autonomous, free drifting, profiling float, i.e. a probe that can’t control its trajectory but is able to control its buoyancy and thus to move up and down the water column as it wishes. One of the data captured by the float is Temperature. The figures below shows the Temperature data for the year 2018.
+Each Argo probe is an autonomous, free drifting, profiling float, i.e. a probe that can’t control its trajectory but is able to control its buoyancy and thus to move up and down the water column as it wishes.I retrieved data from 75W to 45W, 20N to 30N, 0db to 10db and from January to June 2018 and From July to December 2018. The Temperature data is used to plot the figures below.
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.65\textwidth]{placeholder} % Include the image placeholder.png
-\caption{Figure caption.}
+\includegraphics[width=1\textwidth]{JAN_JUN.png} % Include the image placeholder.png
+\caption{JANUARY TO JUNE 2018.}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.65\textwidth]{placeholder} % Include the image placeholder.png
-\caption{Figure caption.}
+\includegraphics[width=1\textwidth]{JUL_DEC.png} % Include the image placeholder.png
+\caption{JULY TO DECEMBER 2018}
 \end{center}
 \end{figure}
 
 %----------------------------------------------------------------------------------------
-%	SECTION 5
+%	SECTION 4
 %----------------------------------------------------------------------------------------
 
 \section{Results and Conclusion}
-The zigzag pattern of the figures above represents the movement of the float. Temperatures start to  drop in August as winter season approaches.//
+The zigzag pattern of the figures above represents the movement of the float. Temperatures start to  drop in August as winter season approaches.
 
-There is a rise in Temperature from March, this represents the end of the winter and the beginning of the spring/summer season//
+There is a rise in Temperature from March, this represents the end of the winter and the beginning of the spring/summer season
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
@@ -93,7 +93,7 @@ There is a rise in Temperature from March, this represents the end of the winter
 
 \bibliography{sample}
 \begin{enumerate}
-\item Argo data python library &  \url{ https://argopy.readthedocs.io/en/latest/index.html}
+\item Argo data python library - \url{ https://argopy.readthedocs.io/en/latest/index.html}
 \end{enumerate}
 
 %----------------------------------------------------------------------------------------
