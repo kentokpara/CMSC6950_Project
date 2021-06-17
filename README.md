@@ -1,12 +1,22 @@
 # CMSC6950_Project
 
-##Capstone Project for CMSC6950.
+##Argopy
+
+Argo is a real-time global ocean in situ observing system.The ocean is a key component of the Earth climate system.  It thus needs a con-tinuous real-time monitoring to help scientists better understand its dynamicand predict its evolution.  All around the world, oceanographers have managedto join their efforts and set up a Global Ocean Observing System among whichArgo is a key component.<br />
 
 **The following packages must be INSTALLED:**
 
 
- 1. cartopy -            `conda-forge/win-64::cartopy-0.19.0.post1-py38hd4bff75_0`
- 2. geos -              `conda-forge/win-64::geos-3.9.1-h39d44d4_2`
- 3. proj -               `conda-forge/win-64::proj-7.2.0-h3e70539_0`
- 4. pyshp -              `conda-forge/noarch::pyshp-2.1.3-pyh44b312d_0`
- 5. shapely -            `conda-forge/win-64::shapely-1.7.1-py38h13ff51f_5`
+ 1. Argopy -           pip install argopy
+ 2. Pandas -           pip install pandas
+ 3. Numpy -            pip install numpy
+ 4. Matplotlib -       pip install matplotlib
+ 5. Make -             sudo apt-get install build-essential
+ 6. LaTexmk-           apt-get install latexmk
+
+**Reporducing the Workflow**
+
+ With the index.py file and the Report.tex file the workflow acn be reproduced using a MakeFile.
+ 1. Run make almost_clean, to remove the temporary files created by the Latexmk.
+ 2. Run make clean, to remove the report.pdf file and its dependencies.
+ 3. Run the make command o reproduce the workflow.
