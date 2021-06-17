@@ -1,12 +1,12 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
-# %%
+# %%import required modules
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
 
-# %%
+# %%import Argopy
 from argopy import DataFetcher as ArgoDataFetcher
 argo_loader = ArgoDataFetcher()
 
@@ -16,12 +16,12 @@ ds = argo_loader.region([-75, -45, 20, 30, 0, 10, '2018-01', '2018-06-30']).to_x
 ds_1 = argo_loader.region([-75, -45, 20, 30, 0, 10, '2018-07', '2019-01-01']).to_xarray()
 
 
-# %%
+# %%Set data to dataframe
 #ds = ArgoDataFetcher().profile(6902746, 30).to_xarray()
 df = ds.to_dataframe()
 
 
-# %%
+# %%Set data to dataframe
 df_1 = ds_1.to_dataframe()
 
 
@@ -33,7 +33,7 @@ df['TIME']= pd.to_datetime(df['TIME'])
 df_1['TIME']= pd.to_datetime(df_1['TIME'])
 
 
-# %%
+# %%Fist Plot
 Temp = df['TEMP']
 Time = df['TIME']
 fig, ax = plt.subplots(figsize =(20,7))
@@ -45,7 +45,7 @@ ax.grid()
 plt.savefig('JAN_JUN.png')
 
 
-# %%
+# %%Second Plot
 Temp_1 = df_1['TEMP']
 Time_1 = df_1['TIME']
 fig1, ax1 = plt.subplots(figsize =(20,7))
