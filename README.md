@@ -1,6 +1,6 @@
 # CMSC6950_Project
 
-##Argopy
+## Argopy
 
 Argo is a real-time global ocean in situ observing system.The ocean is a key component of the Earth climate system.  It thus needs a con-tinuous real-time monitoring to help scientists better understand its dynamicand predict its evolution.  All around the world, oceanographers have managedto join their efforts and set up a Global Ocean Observing System among whichArgo is a key component.<br />
 
