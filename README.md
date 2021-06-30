@@ -2,7 +2,12 @@
 
 ## Argopy
 
-Argo is a real-time global ocean in situ observing system.The ocean is a key component of the Earth climate system.  It thus needs a con-tinuous real-time monitoring to help scientists better understand its dynamicand predict its evolution.  All around the world, oceanographers have managedto join their efforts and set up a Global Ocean Observing System among whichArgo is a key component.<br />
+Argo is a real-time global ocean observing system.The Ocean makes up more than 70 percent of the earth’s surface, and Argopyprovides a global system for monitoring ocean behaviours.  Scientists study thebehaviour of the Ocean for many reasons, including but not limited to;
+1.  Ocean behaviour helps scientists understand global weather conditions.
+2.  The Ocean supports different forms of life that need preserving;  drasticchanges in parameters like Temperature or Pressure will impact these lifeforms.
+3.  Global Warming.
+
+Argo consists of about 4000 autonomous floats, measuring parameters like Tem-perature, Pressure and Salinity.  This historical data is available to the public.<br />
 
 **The following packages must be INSTALLED:**
 
