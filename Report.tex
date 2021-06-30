@@ -32,18 +32,23 @@
 
 \section{Introduction}
 
-Argo is a real-time global ocean in situ observing system.
+Argo is a real-time global ocean observing system.
 
-The ocean is a key component of the Earth climate system. It thus needs a continuous real-time monitoring to help scientists better understand its dynamic and predict its evolution. All around the world, oceanographers have managed to join their efforts and set up a Global Ocean Observing System among which Argo is a key component.\\
-
-Argo is a global network of nearly 4000 autonomous probes measuring pressure, temperature and salinity from the surface to 2000m depth every 10 days. The localisation of these probes is nearly random between the 60th parallels (see live coverage here). All probes data are collected by satellite in real-time, processed by several data centers and finally merged in a single data-set (collecting more than 2 millions of vertical profiles data) made freely available to anyone through a ftp server or monthly zip snapshots.\\
+The Ocean makes up more than 70 percent of the earth's surface, and Argopy provides a global system for monitoring ocean behaviours.
+Scientists study the behaviour of the Ocean for many reasons, including but not limited to;
+\begin{enumerate}
+    \item Ocean behaviour helps scientists understand global weather conditions.
+    \item The Ocean supports different forms of life that need preserving; drastic changes in parameters like Temperature or Pressure will impact these life forms. 
+    \item Global Warming
+    \end{enumerate}
+Argo consists of about 4000 autonomous floats, measuring parameters like Temperature, Pressure and Salinity. This historical data is available to the public.\\
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
 \section{Installation}
-To use Argopy is a python package and is compatible with python versions 3.6, 3.7 and 3.8. 
+Argopy is a python package and is compatible with python versions 3.6, 3.7 and 3.8. 
 For this project, the following packages are required;
 
 \begin{enumerate}
@@ -59,8 +64,8 @@ For this project, the following packages are required;
 
 \section{Sample Data}
 
-Each Argo probe is an autonomous, free drifting, profiling float, i.e. a probe that can’t control its trajectory but is able to control its buoyancy and thus to move up and down the water column as it wishes.I retrieved data from 75W to 45W, 20N to 30N, 0db to 10db and from January to June 2018 and From July to December 2018. The Temperature data is used to plot the figures below.
-
+Each Argo float is autonomous and drifts the ocean freely. The float cannot control its position but can control its buoyancy. Each float moves up to the ocean's surface and then sinks to about 2000meters every ten days.
+The figure below is data from 75W to 45W, 20N to 30N, 0db to 10db, January to June 2018 and July to December 2018. The Temperature data is plotted against time in the figures below.
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=1\textwidth]{JAN_JUN.png} % Include the image placeholder.png
@@ -80,7 +85,7 @@ Each Argo probe is an autonomous, free drifting, profiling float, i.e. a probe t
 %----------------------------------------------------------------------------------------
 
 \section{Results and Conclusion}
-The zigzag pattern of the figures above represents the movement of the float. Temperatures start to  drop in August as winter season approaches.
+The zigzag pattern of the figures above represents the movement of the float every ten days. Temperatures start to  drop in August as winter season approaches.
 
 There is a rise in Temperature from March, this represents the end of the winter and the beginning of the spring/summer season
 
